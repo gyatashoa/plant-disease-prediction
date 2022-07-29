@@ -3,5 +3,5 @@ build:
     web: Dockerfile
 run:
   web: bundle exec puma -C config/puma.rb
-  worker: python main.py
-    image: Dockerfile
+  # worker: python main.py
+  #   image: Dockerfile
