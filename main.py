@@ -22,8 +22,8 @@ async def ping():
 
 def read_file_as_image(data) -> np.array:
     image = np.array(Image.open(BytesIO(data )))
-    
     return image
+    
     
     
 @app.post("/predict")
